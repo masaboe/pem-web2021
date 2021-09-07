@@ -1,0 +1,8 @@
+### Basic step proses push file pada GIT
+#git Init
+git status
+git add .
+#git branch -M praktikum
+git commit -m "Update ..."
+#git remote add origin https://github.com/masaboe/pem-web2021
+git push -u origin praktikum
