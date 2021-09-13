@@ -1,0 +1,14 @@
+### Basic step proses push file pada GIT
+#git Init
+git status
+git add .
+#git branch -M pem-web
+git commit -m "Update ..."
+#git remote add origin https://github.com/masaboe/pem-web2021
+git push -u origin pem-web
+
+
+git branch -m main pem-web
+git fetch origin
+git branch -u origin/pem-web pem-web
+git remote set-head origin -a
