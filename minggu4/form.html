@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Belajar Form</title>
+	</head>
+
+	<body>
+		<h2>Contoh Form</h2>
+		<form action="proses.php" method="get" name="fcontoh">
+			<table>
+				<tr>
+					<td><label for="fnim">NIM:</label></td>
+					<td><input type="text" id="fnim" name="fnim" type="text" required=""></td>
+				</tr>
+				<tr>
+					<td><label for="fnim">NAMA:</label></td>
+					<td><input type="text" id="fnama" name="fnama" type="text" required=""></td>
+				</tr>
+				<tr>
+					<td><label for="fprodi">Program Studi:</label></td>
+					<td><select id="fprodi" name="fprodi" required="">
+			  <option value="">::Pilih Prodi::</option>
+			  <option value="11">Teknik Informatika - S1</option>
+			  <option value="12">Sistem Informasi - S1</option>
+			  <option value="21">Desain Komunikasi Visual - S1</option>
+			  <option value="22">Ilmu Komunikasi - S1</option>
+			</select></td>
+				</tr>
+				<tr>
+					<td>Warna Favorit</td>
+					<td><input type="color" name="fcolor" required=""></td>
+				</tr>
+				<tr>
+					<td colspan="2" align="right">
+						<input type="submit" name="fsubmit" value="Kirim/Simpan"></td>
+				</tr>
+			</table>
+		</form>
+	</body>
+</html>
